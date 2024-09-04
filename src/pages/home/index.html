@@ -35,17 +35,62 @@
         <div class="table-content-container">
           <div class="table-content-header">
             <h2>Últimos lançamentos</h2>
-            <button class="small">Adicionar</button>
+            <button onclick="onOpenModal()" class="small">Adicionar</button>
           </div>
           <table id="finances-table">
             <tr>
               <th>Título</th>
               <th>Categoria</th>
               <th>Data</th>
-              <th class="center">Valor</th>
+              <th class="center">value</th>
               <th class="right">Ação</th>
             </tr>
           </table>
+        </div>
+      </div>
+      <div id="modal" class="modal-background">
+        <div class="modal-content">
+          <div class="modal-content-header">
+            <h3>Adicionar lançamentos</h3>
+            <button onclick="onCloseModal()" class="small">Fechar</button>
+          </div>
+          <form id="form-finance-release" class="mt">
+            <label class="mt" for="input-name">Título</label>
+            <input
+              class="mt-smaller"
+              id="input-titulo"
+              name="input-titulo"
+              placeholder="Ex: Conta de energia"
+              type="text"
+              required
+            />
+            <label class="mt" for="input-value">valor</label>
+            <input
+              class="mt-smaller"
+              id="input-value"
+              name="input-value"
+              placeholder="R$ 0,00 (Use valores negativos para despesas)"
+              type="text"
+              required
+            />
+            <label class="mt" for="input-date">Data</label>
+            <input
+              class="mt-smaller"
+              id="input-date"
+              name="input-date"
+              placeholder="00/00/0000"
+              type="date"
+              required
+            />
+            <label class="mt" for="input-category">Categoria</label>
+            <select
+              class="mt-smaller"
+              id="input-category"
+              name="input-category"
+              required
+            ></select>
+            <button class="full-width mt-large">Adicionar</button>
+          </form>
         </div>
       </div>
     </div>
