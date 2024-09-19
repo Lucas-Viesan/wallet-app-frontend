@@ -1,6 +1,6 @@
 # Wallet App Front-end
 
-<img src="https://github.com/Lucas-Viesan/wallet-app-frontend/blob/main/src/img/preview.png" alt="Wallet Preview" height="228" width="678" >
+<img src="https://github.com/Lucas-Viesan/wallet-app-frontend/blob/main/src/img/preview.png" alt="Wallet Preview" height="300" width="678" >
 
 ## Introduction
 
