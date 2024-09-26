@@ -1,130 +1,132 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Noto Sans", sans-serif;
-  color: #010400;
-}
+@media only screen and (max-device-width: 450px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+    color: #010400;
+  }
 
-h1 {
-  font-size: 40px;
-  font-weight: bolder;
-  margin: 0px;
-  padding: 0px;
-}
+  h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+  }
 
-h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
 
-h3 {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-}
+  h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
 
-h4 {
-  font-size: 16px;
-  color: #7c7c7c;
-  font-weight: 700;
-  margin: 0px;
-  padding: 0px;
-}
+  h4 {
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+  }
 
-p {
-  font-size: 26px;
-  color: #7c7c7c;
-  font-weight: 500;
-  margin-bottom: 12px;
-  padding: 0px;
-}
+  p {
+    font-size: 26px;
+    color: #7c7c7c;
+    font-weight: 500;
+    margin-bottom: 12px;
+    padding: 0px;
+  }
 
-label {
-  width: 100%;
-  font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 12px;
-}
+  label {
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 12px;
+  }
 
-a {
-  font-size: 26px;
-  font-weight: 700;
-  text-decoration: underline;
-}
+  a {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
 
-button {
-  background-color: #5936cd;
-  height: 84px;
-  width: 432px;
-  border-radius: 12px;
-  color: #f4f4f9;
-  font-weight: bold;
-  font-size: 28px;
-  border-color: #5936cd;
-  border-width: 2px;
-  border-style: solid;
-  cursor: pointer;
-  margin-bottom: 12px;
-}
+  button {
+    background-color: #5936cd;
+    height: 84px;
+    width: 432px;
+    border-radius: 12px;
+    color: #f4f4f9;
+    font-weight: bold;
+    font-size: 28px;
+    border-color: #5936cd;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
 
-button.small {
-  background-color: #ffffff;
-  color: #010400;
-  font-size: 14px;
-  border-radius: 8px;
-  width: 90px;
-  height: 36px;
-}
+  button.small {
+    background-color: #ffffff;
+    color: #010400;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 90px;
+    height: 36px;
+  }
 
-input {
-  background-color: #f4f4f9;
-  width: 100%;
-  height: 84px;
-  border-color: #06bee1;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 8px;
-  color: #010400;
-  font-size: 16px;
-  padding: 6px;
-  box-sizing: border-box;
-  margin-bottom: 12px;
-}
+  input {
+    background-color: #f4f4f9;
+    width: 100%;
+    height: 84px;
+    border-color: #06bee1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    color: #010400;
+    font-size: 16px;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+  }
 
-input::placeholder {
-  font-size: 28px;
-}
+  input::placeholder {
+    font-size: 28px;
+  }
 
-select {
-  background-color: #f4f4f9;
-  width: 100%;
-  height: 48px;
-  border-color: #06bee1;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 8px;
-  color: #010400;
-  font-size: 16px;
-  padding: 6px;
-  box-sizing: border-box;
-}
+  select {
+    background-color: #f4f4f9;
+    width: 100%;
+    height: 48px;
+    border-color: #06bee1;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    color: #010400;
+    font-size: 16px;
+    padding: 6px;
+    box-sizing: border-box;
+  }
 
-.logo {
-  width: 250px;
-  height: auto;
-  margin-bottom: 32px;
-}
+  .logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 32px;
+  }
 
-.auth-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: auto;
-  min-height: 900px;
-  border-radius: 32px;
-  background-color: #f4f4f9;
+  .auth-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    min-height: 900px;
+    border-radius: 32px;
+    background-color: #f4f4f9;
+  }
 }
