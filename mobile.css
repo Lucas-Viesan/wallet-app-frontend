@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
 body {
   margin: 0px;
   padding: 0px;
@@ -22,7 +20,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
@@ -37,36 +35,39 @@ h4 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 26px;
   color: #7c7c7c;
   font-weight: 500;
-  margin: 0px;
+  margin-bottom: 12px;
   padding: 0px;
 }
 
 label {
   width: 100%;
   font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 12px;
 }
 
 a {
-  font-size: 14px;
+  font-size: 26px;
   font-weight: 700;
   text-decoration: underline;
 }
 
 button {
   background-color: #5936cd;
-  height: 56px;
+  height: 84px;
   width: 432px;
   border-radius: 12px;
   color: #f4f4f9;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 28px;
   border-color: #5936cd;
   border-width: 2px;
   border-style: solid;
   cursor: pointer;
+  margin-bottom: 12px;
 }
 
 button.small {
@@ -81,7 +82,7 @@ button.small {
 input {
   background-color: #f4f4f9;
   width: 100%;
-  height: 48px;
+  height: 84px;
   border-color: #06bee1;
   border-width: 2px;
   border-style: solid;
@@ -90,6 +91,11 @@ input {
   font-size: 16px;
   padding: 6px;
   box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+input::placeholder {
+  font-size: 28px;
 }
 
 select {
@@ -106,69 +112,19 @@ select {
   box-sizing: border-box;
 }
 
-.full-width {
-  width: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.mt {
-  margin-top: 16px;
-}
-
-.mt-larger {
-  margin-top: 32px;
-}
-
-.mt-large {
-  margin-top: 24px;
-}
-
-.mt-small {
-  margin-top: 12px;
-}
-
-.mt-smaller {
-  margin-top: 6px;
-}
-
 .logo {
-  width: 88px;
+  width: 250px;
   height: auto;
-}
-
-.auth-container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #5936cd;
+  margin-bottom: 32px;
 }
 
 .auth-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 480px;
+  width: 80%;
   height: auto;
-  min-height: 440px;
-  border-radius: 24px;
+  min-height: 900px;
+  border-radius: 32px;
   background-color: #f4f4f9;
-}
-
-.auth-content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  padding: 24px;
 }
