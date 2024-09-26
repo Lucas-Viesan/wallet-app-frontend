@@ -2,36 +2,43 @@
 
 <img src="https://github.com/Lucas-Viesan/wallet-app-frontend/blob/main/src/img/preview.png" alt="Wallet Preview" height="300" width="678" >
 
-## Introduction
+## Introdução
 
-This is an finances management dashboard made with JavaScript, HTML and CSS.
-The main objective is the user add and delete finances releases (that are saved in the api), and inform him the balance of the month.
+O Wallet App é uma aplicação web desenvolvida para facilitar o gerenciamento financeiro pessoal. Ele permite aos usuários adicionar, editar e excluir transações financeiras, oferecendo uma visão geral de suas finanças.
 
-## Live application
+## Aplicação
 
 https://lucas-viesan.github.io/wallet-app-frontend/
 
-## Technologies used
+## Funcionalidades
+
+- Adicionar Transações: Insira novas transações com título, valor, data e categoria (ex: Alimentação, Transporte).
+- Listagem de Transações: Veja uma lista completa de todas as transações adicionadas.
+- Remoção e Edição de Transações: Edite ou remova transações existentes.
+- Resumo Financeiro: Visualize um resumo das entradas, saídas e saldo total.
+
+## Tecnologias utilizadas
 
 - JavaScript
 - HTML
 - CSS
 
-## Instructions to run
+## Instruções para executar
 
-1. Clone the application:
+1. Clone a aplicação:
 
 ```
 git clone https://github.com/Lucas-Viesan/wallet-app-frontend.git
 ```
 
-2. Open in the explorer the project and open the index.html file
+2. Abra no navegador o projeto e abra o arquivo index.html
 
 ```
-Open the index.html file with some browser
+Abra o index.html arquivo com algum navegador
+
 ```
 
-3. You can create your own user or use the test user:
+3. Você pode criar seu próprio usuário ou usar o usuário de teste:
 
 ```
 teste@teste.com
