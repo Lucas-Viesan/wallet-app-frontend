@@ -1,6 +1,8 @@
 # Wallet App Front-end
 
-<img src="https://github.com/Lucas-Viesan/wallet-app-frontend/blob/main/src/img/preview.png" alt="Wallet Preview" height="300" width="678" >
+https://github.com/user-attachments/assets/4eb700e7-408e-4797-889e-bcb444666159
+
+
 
 ## Introdução
 
